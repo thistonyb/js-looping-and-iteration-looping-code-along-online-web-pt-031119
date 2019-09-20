@@ -4,9 +4,9 @@ function writeCards(namesArray, eventName) {
 }
 
 function countDown(number) {
-  let i = number;
-  while (i >= 0) {
+  let n = number;
+  while (n >= 0) {
     console.log(`${number}`)
-    i--;
+    n--;
   }
 }
