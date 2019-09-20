@@ -1,4 +1,5 @@
 function writeCards(namesArray, eventName) {
+  let messageArray = []
   for (let i = 0; i < namesArray.length; i++) {
     console.log(`Thank you, ${namesArray[i]}, for the wonderful ${eventName} gift!`);
   }
